@@ -1,0 +1,12 @@
+.navCtr {
+    white-space: nowrap;
+    > a {
+      transition: all 0.2s ease 0s;
+      &:hover {
+        padding-bottom: 5px;
+        border-bottom: 2px solid rgb(34 211 238);
+        color: rgb(34 211 238);
+      }
+    }
+  }
+  
