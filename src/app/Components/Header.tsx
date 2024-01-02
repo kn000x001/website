@@ -25,61 +25,74 @@ const menuItems = [
     {title: "Contact", href: "/contact"},
 ]
 
+// ... (import statements)
+
 const Header = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const pathname = usePathname();
-    const router = useRouter();
-    
-  
-    const toggleMenu = () => {
-      togleScrallOnMain();
-      setMenuOpen(!menuOpen);
-    };
-  
-    useEffect(() => {
-      togleScrallOnMain(true);
-      setMenuOpen(false);
-    }, [pathname]);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const router = useRouter();
 
-    
-    return (
+  const toggleMenu = () => {
+    togleScrallOnMain();
+    setMenuOpen(!menuOpen);
+  };
+
+  useEffect(() => {
+    togleScrallOnMain(true);
+    setMenuOpen(false);
+  }, [pathname]);
+
+  // Store the active path outside of the map function
+  const activePath = usePathname();
+
+  return (
     <header className="w-full bg-gradient-to-l from-slate-800 via-gray-900 to-black border-b-2 border-white fixed">
-        <nav className={clsx({"border-b border-solid": !menuOpen },
-        `py-4 flex justify-between px-12 items-center`)}>
-            <Link href="/">
-                <div>
-                    <Image  
-                        priority={true}
-                        quality={100}
-                        alt="personal logo"
-                        width={50}
-                        height={50}
-                        src={logo}/>
-                </div>
-            </Link>
-            
-            <div className="lg:hidden transition ease-in-out duration-500 transform">
-                <Hamburger onClick={toggleMenu} menuOpen={menuOpen} />
-            </div>
+      <nav
+        className={clsx(
+          { "border-b border-solid": !menuOpen },
+          `py-4 flex justify-between px-12 items-center`
+        )}
+      >
+        <Link href="/">
+          <div>
+            <Image
+              priority={true}
+              quality={100}
+              alt="personal logo"
+              width={50}
+              height={50}
+              src={logo}
+            />
+          </div>
+        </Link>
 
-
-            <div className={`${styles.navCtr}  hidden lg:flex p-0 space-x-8 flex-row items-center relative h-full flex-grow text-[#fff]  justify-end text-[1rem]`}>
-                {
-                    menuItems.map((mi, i) => {
-                      const isActive = usePathname() === mi.href;
-                        return (
-                            <Link key={i} href={mi.href} className={` ${
-                              isActive ? 'pb-2 text-[#22D3EE] border-b-2 border-[#22D3EE]' : ''
-                            }`}>
-                                {mi.title}
-                            </Link>
-                        )
-                    })
-                }
-            </div>
-        </nav>
+        <div className="lg:hidden transition ease-in-out duration-500 transform">
+          <Hamburger onClick={toggleMenu} menuOpen={menuOpen} />
+        </div>
 
         <div
+          className={`${styles.navCtr}  hidden lg:flex p-0 space-x-8 flex-row items-center relative h-full flex-grow text-[#fff]  justify-end text-[1rem]`}
+        >
+          {menuItems.map((mi, i) => {
+            const isActive = activePath === mi.href; // Use the stored active path
+            return (
+              <Link
+                key={i}
+                href={mi.href}
+                className={` ${
+                  isActive
+                    ? 'pb-2 text-[#22D3EE] border-b-2 border-[#22D3EE]'
+                    : ''
+                }`}
+              >
+                {mi.title}
+              </Link>
+            );
+          })}
+        </div>
+      </nav>
+
+      <div
         className={clsx(
           "fixed min-h-full w-full bg-gradient-to-l from-slate-800 via-gray-900 to-black flex flex-col  z-1000 lg:hidden transition-transform duration-500",
           { "translate-x-0": menuOpen, "translate-x-full": !menuOpen }
@@ -87,13 +100,15 @@ const Header = () => {
       >
         <div className="px-12 flex flex-col py-3 gap-8">
           {menuItems.map((mi, i) => {
-            const isActive = usePathname() === mi.href;
+            const isActive = activePath === mi.href; // Use the stored active path
             return (
               <Link
                 key={i}
                 href={mi.href}
                 className={` ${
-                  isActive ? 'pb-2 text-[#22D3EE] border-b-2' : 'pb-2 text-[#FFFFFF] border-b border-solid border-[#fff]'
+                  isActive
+                    ? 'pb-2 text-[#22D3EE] border-b-2'
+                    : 'pb-2 text-[#FFFFFF] border-b border-solid border-[#fff]'
                 }`}
               >
                 {mi.title}
@@ -103,7 +118,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-    )
-}
+  );
+};
 
 export default Header;

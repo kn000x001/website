@@ -46,7 +46,7 @@ const About = () => {
 
                         <div className="flex flex-col text-start break-all text-white px-12">
                             <motion.p variants={childrenVariant} className="py-4 px-0 lg:px-20">
-                                Greetings! I'm a passionate software developer with a keen eye for crafting user-friendly web applications. 
+                                Greetings! I&apos;m a passionate software developer with a keen eye for crafting user-friendly web applications. 
                                 My journey in the realm of technology has equipped me with expertise in JavaScript, TypeScript, C#, React, Next.js,
                                 .NET Framework, and Laravel.
                             </motion.p>
@@ -58,18 +58,18 @@ const About = () => {
                             </motion.p>
 
                             <motion.p variants={childrenVariant} className="py-4 px-0 lg:px-20">
-                                Beyond the realm of technology, my experiences extend into various sectors. I've served in the military as a translator for NATO and the 
+                                Beyond the realm of technology, my experiences extend into various sectors. I&apos;ve served in the military as a translator for NATO and the 
                                 US Marine Corps, practiced law, and worked as a protocol specialist for the Ministry of Education of Georgia.
                             </motion.p>
 
                             <motion.p variants={childrenVariant} className="py-4 px-0 lg:px-20">
                                 What truly sets me apart is my unwavering commitment to clear communication and collaborative teamwork. I thrive on understanding the unique needs
-                                of each client, ensuring that every project I undertake delivers exceptional results. My goal goes beyond mere coding; it's about crafting meaningful
+                                of each client, ensuring that every project I undertake delivers exceptional results. My goal goes beyond mere coding; it&apos;s about crafting meaningful
                                 digital solutions that bring about tangible differences.
                             </motion.p>
 
                             <motion.p variants={childrenVariant} className="py-4 px-0 lg:px-20">
-                                Let's embark on a journey together, where we transform your ideas into effective, intuitive software experiences. Join me in bringing innovation to life!
+                                Let&apos;s embark on a journey together, where we transform your ideas into effective, intuitive software experiences. Join me in bringing innovation to life!
                             </motion.p>
                         </div>
                     </motion.div>
@@ -159,11 +159,11 @@ const About = () => {
                                             <div>
                                                 <ul className="list-disc ps-1 md:ps-4">
                                                     <li>
-                                                        Developed, tested and debugged company's corporate website: Arcton.com;
+                                                        Developed, tested and debugged company&apos;s corporate website: Arcton.com;
                                                         ensuring its stability, accessibility and user-friendly UI/UX.
                                                     </li>
                                                     <li>
-                                                        Worked alongside a team of developers to Developed the company's main product: an online investment platform, using folowwing technologies: Typescript and Nextjs.
+                                                        Worked alongside a team of developers to Developed the company&apos;s main product: an online investment platform, using folowwing technologies: Typescript and Nextjs.
                                                     </li>
                                                 </ul>
                                             </div>
@@ -183,10 +183,10 @@ const About = () => {
                                             <div>
                                                 <ul className="list-disc ps-1 md:ps-4">
                                                     <li>
-                                                        Spearheaded the development of the company's primary website, starting from the ground up, ensuring alignment with industry standards at Bene-exclusive.com.
+                                                        Spearheaded the development of the company&apos;s primary website, starting from the ground up, ensuring alignment with industry standards at Bene-exclusive.com.
                                                     </li>
                                                     <li>    
-                                                        Collaborated closely with a cross-functional team to guarantee the accurate representation of the company's vision in the final product.
+                                                        Collaborated closely with a cross-functional team to guarantee the accurate representation of the company&apos;s vision in the final product.
                                                     </li>
                                                     <li>
                                                         Pioneered the creation of additional products for the company, including an internal-use CRM system and various smaller-scale projects.
@@ -234,7 +234,7 @@ const About = () => {
                                             <div>
                                                 <ul className="list-disc ps-1 md:ps-4">
                                                     <li>
-                                                        Developed company's main website from the scratch and made sure that it satisfies industry standards: TLC.com.ge
+                                                        Developed company&apos;s main website from the scratch and made sure that it satisfies industry standards: TLC.com.ge
                                                     </li>
                                                     <li>    
                                                         Optimized the existing product in order to improve the work process of the company.

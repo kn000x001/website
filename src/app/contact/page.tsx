@@ -48,11 +48,11 @@ const childrenVariant: Variants = {
             <motion.div variants={childrenVariant2} className="max-w-lg space-y-3 px-4">
               <h1 className={`${rubik.className} text-2xl  text-cyan-400 font-semibold`}>Contact</h1>
               <h2 className={`${marker.className} text-white text-3xl font-semibold sm:text-4xl drop-shadow-[0_35px_35px_rgb(34 211 238)]`}>
-                Get in Touch - Let's Bring Your Ideas to Life
+                Get in Touch - Let&apos;s Bring Your Ideas to Life
               </h2>
               <p className={"text-gray-300"}>
                 Ready to take the next step? Whether you have a specific project in mind or just want to explore the possibilities,
-                I'm here to help. As a seasoned software developer, my focus goes beyond coding; it's about understanding your needs and creating
+                I&apos;m here to help. As a seasoned software developer, my focus goes beyond coding; it&apos;s about understanding your needs and creating
                 solutions that truly matter.
               </p>
             </motion.div>
@@ -68,7 +68,7 @@ const childrenVariant: Variants = {
               </h2>
               <p className={"text-gray-300"}>
                 Feel free to reach out for inquiries, collaborations, or just a friendly chat.
-                I thrive on clear communication and collaborative teamwork. Let's discuss how we can transform your ideas into effective,
+                I thrive on clear communication and collaborative teamwork. Let&apos;s discuss how we can transform your ideas into effective,
                 intuitive software experiences that make a lasting impact.
               </p>
             </motion.div>
@@ -84,7 +84,7 @@ const childrenVariant: Variants = {
               </h2>
               <p className={"text-gray-300"}>
                 You can contact me directly using the form below, or connect through my preferred social platforms.
-                I'm excited to hear about your projects and explore the potential of working together. Let's make your ideas a reality!
+                I&apos;m excited to hear about your projects and explore the potential of working together. Let&apos;s make your ideas a reality!
               </p>
 
               <div className="flex flex-col">

@@ -129,7 +129,7 @@ const childrenVariant: Variants = {
                 visible: { opacity: 1, y: 0 }
             }}
             className='text-lg text-white font-bold text-center my-4 px-10 py-4 pb-10'>
-              I'm <b className='font-bold text-cyan-400'>Nika Ivanidze</b>,
+              I&apos;m <b className='font-bold text-cyan-400'>Nika Ivanidze</b>,
               a passionate software developer dedicated to creating innovative solutions 
               and crafting exceptional user experiences.
             </motion.p>
