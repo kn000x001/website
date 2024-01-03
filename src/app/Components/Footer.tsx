@@ -66,7 +66,7 @@ export default function Footer() {
               </li>
 
               <li className="w-10 h-10 border rounded-full flex items-center justify-center cursor-pointer hover:border-cyan-500 transition duration-200">
-                <Link className="ms-2 group-hover:underline w-auto h-auto" href="https://www.linkedin.com/in/nika-ivanidze-152257165/">
+                <Link className="ms-2 group-hover:underline w-auto h-auto" href = "mailto: n.ivanidze01@gmail.com">
                     <Image alt="image" width={20} height={20} src={email} className="me-2"/>
                 </Link>
               </li>
