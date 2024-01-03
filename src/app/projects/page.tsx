@@ -64,7 +64,7 @@ const Projects = () => {
 
     const projects = [
         {title: "Bene-Exclusive", href: "https://www.bene-exclusive.com/", image: bene},
-        {title: "Kairos", href: "https://www.kairos.com/", image: kairos},
+        {title: "Kairos", href: "https://www.kairos.ge/", image: kairos},
         {title: "Spec-Komfort", href: "https://speckomforti.ge/", image: spec},
         {title: "Tlc", href: "https://tlc.com.ge/", image: tlc},
         {title: "Electron", href: "https://eleqtroni.ge/en/home", image: electron},
@@ -89,10 +89,10 @@ const Projects = () => {
                 Projects
             </h1>
             <div className="flex justify-center my-4">
-                <h2 onClick={toggleVisibility} data-divnumber={1} className={`${marker.className} text-2xl cursor-pointer hover:text-cyan-400 transition duration-200 p-4 hover:underline text-white font-bold`}>
+                <h2 onClick={toggleVisibility} data-divnumber={1} className={` text-2xl cursor-pointer hover:text-cyan-400 transition duration-200 p-4 hover:underline text-white font-bold`}>
                     Live Projects
                 </h2>
-                <h2 onClick={toggleVisibility} data-divnumber={2} className={`${marker.className} text-2xl cursor-pointer hover:text-cyan-400 transition duration-200 p-4 hover:underline text-white font-bold`}>
+                <h2 onClick={toggleVisibility} data-divnumber={2} className={` text-2xl cursor-pointer hover:text-cyan-400 transition duration-200 p-4 hover:underline text-white font-bold`}>
                     Personal Projects
                 </h2>
             </div>

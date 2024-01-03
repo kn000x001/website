@@ -115,7 +115,7 @@ const childrenVariant: Variants = {
                 hidden: { opacity: 0, y: 30 },
                 visible: { opacity: 1, y: 0 }
             }}
-              className={`${marker.className} text-2xl text-white font-bold text-center my-4`}>
+              className={`text-2xl text-white font-bold text-center my-4`}>
               Thank you for Visiting My Digital Space.
             </motion.h2>
 
@@ -149,7 +149,7 @@ const childrenVariant: Variants = {
               hidden: { opacity: 0, y: 30 },
               visible: { opacity: 1, y: 0 }
             }}
-            className={`${marker.className} text-2xl text-white font-bold text-center my-10`}>
+            className={`text-2xl text-white font-bold text-center my-10`}>
             My Recent Work
           </motion.h2>
 
@@ -192,7 +192,7 @@ const childrenVariant: Variants = {
               hidden: { opacity: 0, y: 30 },
               visible: { opacity: 1, y: 0 }
             }}
-            className={`${marker.className} text-2xl text-white font-bold text-center mt-10 mb-4`}>
+            className={`text-2xl text-white font-bold text-center mt-10 mb-4`}>
             My Technology Stack
           </motion.h2>
 

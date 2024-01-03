@@ -47,7 +47,7 @@ const childrenVariant: Variants = {
           <div className="max-w-lg mx-auto justify-between lg:flex lg:max-w-none py-6 ">
             <motion.div variants={childrenVariant2} className="max-w-lg space-y-3 px-4">
               <h1 className={`${rubik.className} text-2xl  text-cyan-400 font-semibold`}>Contact</h1>
-              <h2 className={`${marker.className} text-white text-3xl font-semibold sm:text-4xl drop-shadow-[0_35px_35px_rgb(34 211 238)]`}>
+              <h2 className={` text-white text-3xl font-semibold sm:text-4xl drop-shadow-[0_35px_35px_rgb(34 211 238)]`}>
                 Get in Touch - Let&apos;s Bring Your Ideas to Life
               </h2>
               <p className={"text-gray-300"}>
@@ -63,7 +63,7 @@ const childrenVariant: Variants = {
 
           <div className="max-w-lg mx-auto justify-between lg:flex lg:flex-row-reverse py-6 lg:max-w-none items-center">
             <motion.div variants={childrenVariant} className="max-w-lg space-y-3 px-4" >
-              <h2 className={`${marker.className} text-white text-3xl font-semibold sm:text-4xl`}>
+              <h2 className={` text-white text-3xl font-semibold sm:text-4xl`}>
                 Ready to Collaborate?
               </h2>
               <p className={"text-gray-300"}>
@@ -79,7 +79,7 @@ const childrenVariant: Variants = {
 
           <div className="max-w-lg mx-auto justify-between lg:flex lg:max-w-none py-6 items-center">
             <motion.div variants={childrenVariant2} className="max-w-lg space-y-3 px-4">
-              <h2 className={`${marker.className} text-white text-3xl font-semibold sm:text-4xl`}>
+              <h2 className={` text-white text-3xl font-semibold sm:text-4xl`}>
                 Drop Me a Line
               </h2>
               <p className={"text-gray-300"}>
