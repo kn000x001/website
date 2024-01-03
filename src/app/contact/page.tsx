@@ -8,14 +8,9 @@ import { motion, Variants } from "framer-motion";
 import email from "../../../public/images/email.svg";
 import linkedin from "../../../public/images/linkedin.svg";
 import Link from "next/link";
-import { Rubik_Glitch, Permanent_Marker } from 'next/font/google';
+import { Rubik_Glitch } from 'next/font/google';
 
 const rubik = Rubik_Glitch({
-  subsets: ['latin'],
-  weight: ['400']
-});
-
-const marker = Permanent_Marker({
   subsets: ['latin'],
   weight: ['400']
 });
