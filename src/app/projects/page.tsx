@@ -77,10 +77,10 @@ const Projects = () => {
     ];
 
     const personal = [
-        {title: "React Calculator", href: "https://github.com/kn000x001/React-Calculator", image: calculator},
-        {title: "Weather App", href: "https://github.com/kn000x001/weather-app", image: weather},
-        {title: "Rock Papaer Scissors", href: "https://github.com/kn000x001/Rock-Papaer-Scissors", image: rock},
-        {title: "Dynamic List with Filter", href: "https://github.com/kn000x001/List-of-Users-and-Games-with-filter-function", image: list},
+        {title: "React Calculator", href: "https://github.com/kn000x001/React-Calculator", image: rock},
+        {title: "Weather App", href: "https://github.com/kn000x001/weather-app", image: list},
+        {title: "Rock Papaer Scissors", href: "https://github.com/kn000x001/Rock-Papaer-Scissors", image: calculator},
+        {title: "Dynamic List with Filter", href: "https://github.com/kn000x001/List-of-Users-and-Games-with-filter-function", image: weather},
     ];
 
     return (
