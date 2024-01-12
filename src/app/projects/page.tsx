@@ -89,12 +89,12 @@ const Projects = () => {
                 Projects
             </h1>
             <div className="flex justify-center my-4">
-                <h2 onClick={toggleVisibility} data-divnumber={1} className={` text-2xl cursor-pointer hover:text-cyan-400 transition duration-200 p-4 hover:underline text-white font-bold`}>
+                {/* <h2 onClick={toggleVisibility} data-divnumber={1} className={` text-2xl cursor-pointer hover:text-cyan-400 transition duration-200 p-4 hover:underline text-white font-bold`}>
                     Live Projects
-                </h2>
-                <h2 onClick={toggleVisibility} data-divnumber={2} className={` text-2xl cursor-pointer hover:text-cyan-400 transition duration-200 p-4 hover:underline text-white font-bold`}>
+                </h2> */}
+                {/* <h2 onClick={toggleVisibility} data-divnumber={2} className={` text-2xl cursor-pointer hover:text-cyan-400 transition duration-200 p-4 hover:underline text-white font-bold`}>
                     Personal Projects
-                </h2>
+                </h2> */}
             </div>
             <motion.div initial="initial" animate="animate" variants={parentVariant} className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-4 lg:gap-3`}>
                 {visibility1 &&(
@@ -122,7 +122,7 @@ const Projects = () => {
                 
                 
 
-                {visibility2 && (
+                {/* {visibility2 && (
                     <>
                         {personal.map((mi, i) => {
                             return (
@@ -143,7 +143,7 @@ const Projects = () => {
                             )
                         })}
                     </>
-                )}
+                )} */}
                 
             </motion.div>
         </div>
