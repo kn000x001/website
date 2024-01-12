@@ -4,7 +4,7 @@ import Link from "next/link";
 import logo from "../../../public/logo.png";
 import linkedin from "../../../public/images/linkedin.svg";
 import email from "../../../public/images/email.svg";
-
+import github from "../../../public/images/github.svg"
 
 export default function Footer() {
 
@@ -68,6 +68,12 @@ export default function Footer() {
               <li className="w-10 h-10 border rounded-full flex items-center justify-center cursor-pointer hover:border-cyan-500 transition duration-200">
                 <Link className="ms-2 group-hover:underline w-auto h-auto" href = "mailto: n.ivanidze01@gmail.com">
                     <Image alt="image" width={20} height={20} src={email} className="me-2"/>
+                </Link>
+              </li>
+
+              <li className="w-10 h-10 border rounded-full flex items-center justify-center cursor-pointer hover:border-cyan-500 transition duration-200">
+                <Link className="ms-2 group-hover:underline w-auto h-auto" href="https://github.com/kn000x001">
+                    <Image alt="image" width={20} height={20} src={github} className="me-2"/>
                 </Link>
               </li>
             </ul>
