@@ -81,10 +81,6 @@ const childrenVariant: Variants = {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain.svg"
     },
     
-    {
-      title: "Laravel",
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg"
-    },
   ]
 
   
